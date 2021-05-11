@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Forgot</title>
+</head>
+<body>
+    <div class="heading"><h1>Reset Password</h1></div>
+    
+    <div id="reset">
+        <form action="./pforget.php" method="POST">
+            <label for="un">UserName</label><br>
+            <input type="text" name="uname" id="uname" required><br>
+            <label for="pa">Password</label><br>
+            <input type="password" name="pas" id="pas" required><br>
+            <label for="cpa">New Password</label><br>
+            <input type="password" name="cpas" id="cpas" required><br>
+            <p class="signUp">
+                <input type="submit" name="sub" value="Submit">
+                <input type="reset" name="res" value="Reset">    
+            <a href="./register.html" target="_blank">Sign Up</a></p>
+            <br>   
+        </form>
+    </div>
+    <div id="rforgot">
+        <p> Already a member?  <a href="./Log_In.html" target="_blank">Log In?</a></p>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+This assignment has all the forms that you gave us which are the register,login and reset forms
+ and we added two additional forms in the home or index.html pages navigation bar which is 
+Contact us that have the appointment form and the Change that has the form that will change 
+appointment date.   
+
+
+
+
+
+
+
+			 	Group Members
+		1. Ephrem Demlew		1010831
+		2. Daniel Demelash		1010747
+		3. Belsti Yezengaw		1010749

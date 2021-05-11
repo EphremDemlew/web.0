@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Log In</title>
+</head>
+<body>
+
+    <div id="div_logo"><img src="./Images/log_icon.ico" alt="logo.jpg"></div>
+
+    <div id="div_login">
+        <form action="./pLog_In.php" method="POST">
+            <label for="un">UserName</label><br>
+            <input type="text" name="uname" id="uname" required><br>
+            <label for="pa">Password</label><br>
+            <input type="password" name="pas" id="pas" required><br>
+            <p class="signUp"><input type="submit" name="log" value="Sign In">
+            <a href="./register.html" target="_blank">Sign Up</a></p>
+            <br>
+            <input type="checkbox" name="check" value="remember"> Remember Me
+            <br>
+            <input type="button" name="cancel" value="Cancel">          
+        </form>
+    </div>
+    <div id="forgot">
+    <p><a href="./forgot.html" target="_blank">Forget  Password?</a></p>
+    </div>
+
+</body>
+</html>

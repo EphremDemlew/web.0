@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Change Forgot Date</title>
+</head>
+<body>
+    
+    <div class="heading"><h1>Reset Date</h1></div>
+    
+    <div id="reset">
+        <form action="./aforget.php" method="POST">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label for="ndate">New Date</label><br>
+            <input type="date" name="ndate" id="ndate" required><br>
+           
+            <p class="signUp">
+                <input type="submit" name="sub" value="Submit">
+                <input type="reset" name="res" value="Reset">    
+            <a href="./register.html" target="_blank">Sign Up</a></p>
+            <br>   
+        </form>
+    </div>
+    <div id="rforgot">
+        <p> Already a member?  <a href="./Log_In.html" target="_blank">Log In?</a></p>
+        </div>
+    
+</body>
+</html>
